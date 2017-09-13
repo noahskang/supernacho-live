@@ -1,5 +1,4 @@
 .wrapper{
- /*position: relative;*/
  display: flex;
  flex-direction: column;
  align-items: center;
@@ -9,11 +8,11 @@
 .background{
   background-image: url("http://res.cloudinary.com/noah-s-kang/image/upload/v1501866773/background_w6komw.png");
   background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   height: 100vh;
-   margin: 0 0 0 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 130vh;
+  margin: 0 0 0 0;
 }
 
 button{
@@ -74,8 +73,61 @@ canvas{
   opacity: 0;
 }
 
-.wrapper{
-
+.footer{
+  height: 50px;
+  padding: 30px 0px 0px 0px;
+  color: black;
+  font-size: 25px;
+  text-align: center;
 }
-/*
-use jquery to trigger game play on click of start button*/
+
+.footer h1{
+  font-size: 10px;
+}
+
+.icons{
+  display: flex;
+  justify-content: center
+}
+
+.icon {
+  -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  border: 0;
+  border-radius: 100%;
+  width: 50px;
+  color: #ffffff;
+  display: inline-block;
+  height: 2.5em;
+  line-height: 2.5em;
+  text-align: center;
+  width: 2.5em;
+  margin: 10px 50px 0 50px;
+  cursor: pointer;
+}
+
+.fa-linkedin {
+  background-color: #e7814e;
+}
+
+.fa-linkedin:hover {
+  background-color: #eca37e;
+}
+
+.fa-linkedin:active {
+  background-color: #b5582a;
+}
+
+.fa-github {
+  background-color: #e6693b;
+}
+
+.fa-github:hover {
+  background-color: #ed9371;
+}
+
+.fa-github:active {
+  background-color: #c64a1d;
+}
